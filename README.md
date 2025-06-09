@@ -41,28 +41,37 @@ Here's a walkthrough of implemented required features:
 <img src='https://imgur.com/a/iTfmND2' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
+**CSS Grid Mastery** Initially struggled with the CSS Grid responsive layout, but learned to use `minmax()` and `auto-fit` for flexible card arrangements and responsive layouts across all device sizes.
+**React Component Architecture** Started everything with one component, then learned to create a sector for features concerning different components and how props enabled reusability, maintainable components.
+**Advanced CSS Animations** Implementing hover effects and gradient shifts required understanding of CSS transformations; therefore, experimenting with the timing of professional functions. 
+**Git Workflow Integration** Learning proper version control practices, including .gitignore configuration and line ending warnings on Windows systems. 
+**Data Flow Understanding** Understanding how arrays, map functions, and props all worked in tandem to create a dynamic grid of cards containing fighter data.
 
-Describe any challenges encountered while building the app.
+These challenges ultimately led to a better comprehension of modern React workflow, Git integration, and CSS Responsiveness.
 
 ## License
 
-    Copyright [2025] [David Raet]
+MIT License
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+Copyright (c) 2025 David Raet
 
-        http://www.apache.org/licenses/LICENSE-2.0
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
