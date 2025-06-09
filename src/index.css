@@ -1,0 +1,103 @@
+body{
+  background-color: #000000;
+}
+
+.header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.fighter-card {
+  width: 300px;
+  border: 4px solid #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.fighter-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fighter-info{
+   color: #ffffff;
+   padding: 25px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fighter-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #dc143c 50%, #3141ec 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fighter-info p:nth-child(2){
+  color: #cccccc;
+}
+
+.fighter-info p:nth-child(3){
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.fighter-info p:nth-child(4){
+  color: #cccccc;
+  font-size: 14px;
+}
+
+
+.full-info {
+  background-color: rgb(148, 31, 31);
+  background: linear-gradient(135deg, #942F1F 0%, #DC143C 100%);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  box-shadow: 0 4px 15px rgba(148, 31, 31, 0.3);
+}
+
+.full-info:hover {
+  background-position: 100% 50%;
+  background: linear-gradient(135deg, #dc143c, #942f1f);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(148, 31, 31, 0.5);
+  
+}
+
+
+.fighter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .fighter-grid {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+  .fighter-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
