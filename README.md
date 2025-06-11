@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='[https://s8.ezgif.com/tmp/ezgif-8e0603393b6b27.gif](https://s5.ezgif.com/tmp/ezgif-54d267bf145888.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://s5.ezgif.com/tmp/ezgif-54d267bf145888.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
